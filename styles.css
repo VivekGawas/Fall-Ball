@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 1px rgb(80, 80, 80);
+}
+
+#game{
+    
+    width: 400px;
+    height: 500px;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+#character{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 440px;
+    bottom: 190px;
+    z-index: 100000;
+}
+
+.block{
+    width: 400px;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+
+}
+
+.hole{
+    width: 40px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+
+.btn{
+    box-shadow: 2px 2px 3px black;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    box-shadow: 0px 0px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 122);
+}
+
+.inst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-family: cursive}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
